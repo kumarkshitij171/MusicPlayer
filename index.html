@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="shortcut icon" href="assets/gana bajana logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand-name"><img src="assets/gana bajana logo.png" alt="Gaana Bajana" srcset=""><span
+                    style="color: white;">Gaana Bajana</span> </li>
+            <li>Home</li>
+            <li>My favorites</li>
+            <li class="searchBox"><input type="text" placeholder="Search.."></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songListContainer" id="tes">
+            <div class="card">
+                <span>04:39</span>
+                <i class="fa-regular fa-heart fa-xl heartFav" id="favorites" style="color: #e12392;"></i>
+                <img alt=""  style="width:100%">
+                <div class="box">
+                    <h4 ><b class="songName">Song name </b><i id="0" class="fa-solid fa-2xl fa-circle-play playSong" style="color: #3a9275;"></i></h4>
+                    <p class="desc">description</p>
+                </div>
+            </div>
+            <div class="card ">
+                <span>04:39</span>
+                <i class="fa-regular fa-heart fa-xl heartFav" id="favorites" style="color: #e12392;"></i>
+                <img alt=""  style="width:100%">
+                <div class="box">
+                    <h4 ><b class="songName">Song name </b><i id="1" class="fa-solid fa-2xl fa-circle-play playSong" style="color: #3a9275;"></i></h4>
+                    <p class="desc">description</p>
+                </div>
+            </div>
+            <div class="card">
+                <span>04:39</span>
+                <i class="fa-regular fa-heart fa-xl heartFav" id="favorites" style="color: #e12392;"></i>
+                <img src="assets/jhuki najar.jpeg" alt="" style="width:100%">
+                <div class="box">
+                    <h4><b class="songName">Song name </b><i id="2" class="fa-solid fa-2xl fa-circle-play playSong" style="color: #3a9275;"></i></h4>
+                    <p class="desc">description</p>
+                </div>
+            </div>
+            <div class="card">
+                <span>04:39</span>
+                <i class="fa-regular fa-heart fa-xl heartFav" id="favorites" style="color: #e12392;"></i>
+                <img alt="" style="width:100%">
+                <div class="box">
+                    <h4><b class="songName">Song name </b><i id="3" class="fa-solid fa-2xl fa-circle-play playSong" style="color: #3a9275;"></i></h4>
+                    <p class="desc">description</p>
+                </div>
+            </div>
+            <div class="card">
+                <span>04:39</span>
+                <i class="fa-regular fa-heart fa-xl heartFav" id="favorites" style="color: #e12392;"></i>
+                <img alt="" style="width:100%">
+                <div class="box">
+                    <h4><b class="songName">Song name </b><i id="4" class="fa-solid fa-2xl fa-circle-play playSong" style="color: #3a9275;"></i></h4>
+                    <p class="desc">description</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <!-- seek bar/ progress bar -->
+        <input id="progressBar" type="range">
+        <div class="playback-icons">
+            <i class="fa-solid fa-backward-step fa-2xl" id="previous"></i>
+            <i class="fa-solid fa-play fa-2xl" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step fa-2xl" id="next"></i>
+        </div>
+        <div class="song-info">
+            <img src="assets/7d20.gif" id="gif" alt="" srcset="">
+            <h3 id="masterSongName">Teri jhuki najar</h3>
+
+        </div>
+    <!--    <div class="vol-icon">
+            <i class="fa-solid fa-volume-xmark"></i>
+            <i class="fa-solid fa-volume-low"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            </div>    -->
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/d6e8b920f5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
